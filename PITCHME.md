@@ -44,7 +44,7 @@ Mac、Linux等を使用している方はターミナルを、Windowsを使用�
 ```
 $ curl -s "https://get.sdkman.io" | bash
 ```
-画面に完了の表示が出たら、続けて下記のコマンドを実行します。
+画面に完了(All done!)の表示が出たら、続けて下記のコマンドを実行します。
 ```
 $ source "$HOME/.sdkman/bin/sdkman-init.sh"
 ```
@@ -52,7 +52,7 @@ $ source "$HOME/.sdkman/bin/sdkman-init.sh"
 ```
 $ sdk version
 ```
-sdkman x.x.x のようにバージョン番号が表示されれば準備OKです。お疲れ様でした！
+SDKMAN 5.7.3+337 のようにバージョン番号が表示されれば準備OKです。お疲れ様でした！
 
 ---
 # 1.SDKMANでJavaをインストールしてみよう
