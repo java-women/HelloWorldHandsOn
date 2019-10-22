@@ -91,9 +91,24 @@ $ sdk selfupdate force
 ---
 ## 1-2.SDKMANでJDKをインストールしてみる
 
+Cygwinかターミナルで下記のコマンドを実行してJDKをインストールします。
 ```
-sdk install java 13.0.1-open
+$ sdk install java 13.0.1-open
 ```
+完了のメッセージ（Done installing!）が出たらOKです！  
+
+下記のようなメッセージ（インストールしたJDKをデフォルトにしますか？）が表示された場合は、問題なければ「Y」を入力してEnterを押してください。  
+(既にご自分でJavaの環境を作っているなど、変更したくない場合は「n」を入力してEnterを押してください)
+```
+Do you want java 13.0.1-open to be set as default? (Y/n):
+```
+
+インストールができたので、Javaが使えるようになっているか下記のコマンドで確かめてみましょう。
+```
+$ java -version
+```
+openjdk version "13.0.1" のようにバージョンが表示されればOKです！
+
 ---
 # 2.JShellでHelloWorld!してみよう
 ## 2-1.ちょっとだけコマンドを紹介
