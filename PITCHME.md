@@ -109,6 +109,9 @@ $ java -version
 ```
 openjdk version "13.0.1" のようにバージョンが表示されればOKです！
 
+※32bitOSを使っていてopenjdkのインストールができなかった方は、下記のURLからOSにあわせてダウンロード、インストールしてください。  
+https://bell-sw.com/pages/java-13.0.1/  
+
 ---
 # 2.JShellでHelloWorld!してみよう
 JDKがインストールできたので、実際にJavaを使ってみましょう！  
