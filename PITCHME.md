@@ -136,6 +136,11 @@ JShellを終了する場合は、/exitと入力してEnterを押します。
 jshell> /exit
 |  終了します
 ```
+(10/27 追記)  
+Cygwinを使用している人で、JShellの表示が文字化けしてしまう場合は、日本語の文字コードの設定を変えてあげるときちんと表示されるようになるので、 /exit でJShellを終了してからCygwinで下記のコマンドを実行してみてください。
+```
+$ jshell -J-Dfile.encoding=UTF-8
+```
 
 ---
 ## 2-3.Javaを書いてみる（Hello World!)
